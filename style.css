@@ -1,0 +1,184 @@
+body{
+    text-decoration: none;
+    color:#ffffff; 
+    font-family:fantasy;
+    height: auto;
+    width: auto;
+}
+nav {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+nav {
+    background-color: #4d001f;
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+nav>ul, nav>div {
+    display: inline-block;
+}
+nav>ul {
+    margin: 0;
+    margin-left: 20%;
+    padding: 0;
+    list-style-type: none;
+}
+nav>ul li {
+    display: inline-block;
+   
+
+}
+hr{
+    margin: 0;
+    padding: 0;
+}
+
+
+.head{
+    padding: 30px;
+      background: -moz-linear-gradient(right,  #ff0066, #4d001f); 
+    margin: 0;
+    
+}
+.head h1{
+    padding: 0;
+    margin: 0;
+    color: white;
+    
+}
+.head p{
+    margin: 0;
+    color: white;
+}
+form{
+    text-align: left;
+    padding: 20px;
+      width: 500px;
+    height: auto;
+    margin-top: 10px;
+
+}
+.form{
+    
+    margin-left: 383px;
+    margin-right: 383px;
+     text-align: left;
+    padding: 20px;
+      width:  600px;
+    height: auto;
+    background-color: #d9d9d9;
+}
+
+#search{
+    background-color:  #d9d9d9;
+
+}
+#search1{
+    background-color: gray;
+    padding: 1px
+}
+.select{
+    padding: 5px;
+    height: 5%;
+    width: 15%;
+
+}
+.button{
+    padding: 5px;
+    background-color: #000033;
+    height: 5%;
+    width: 10%;
+    color: white;
+    font-size: 15px;
+}
+
+img{
+    height: 400px;
+    width: 100%
+}
+.Main{
+ box-shadow: 0 2px 4px 0 rgb(0,0,0),0 2px 10px 0 rgb(0,0,0) !important;
+}
+/*
+.Mainpage{
+    height: auto;
+ max-width: 500px;
+}*/
+.col-sm-3{
+    border: solid 0.5px;
+}
+.Cart{
+    background-color:#ff0066 ;
+    text-align: center;
+    font-size: 18px
+}
+.rightgrid{
+    float: right;
+    width: 500px;
+    height: auto;
+}
+.leftgrid{
+    float: left;
+    width: 200px;
+    height: auto;
+}
+
+.polo{
+    height: 200px;
+    width: 200px;
+}
+.sneakers{
+    height: 200px;
+    width: 200px;
+}
+/*input{
+    width: 500px;*/
+
+textarea{
+    width: 500px;
+}
+footer{
+    padding: 15px;
+    margin: 0;
+    background-color: #808080;
+    height: auto;
+    width: 100%;
+}
+#login{
+     margin-left: 335px;
+    margin-right: 335px;
+}
+  
+/* input{
+    width: 250px;
+} */
+.sidebar{
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 200px;
+    height:100%;
+    background-color: #bfbfbf;
+
+    
+}
+.submit{
+    
+    background-color: #000033;
+    color: #ffffff;
+
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
